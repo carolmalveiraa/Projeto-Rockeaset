@@ -8,8 +8,171 @@ body {
   margin: 88px auto 80px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  gap: var(--gap-5xs);
 }
 
+.headline1 {
+  color: var(--text-headline);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-size: var(--text-headline);
+}
+
+h1 {
+  margin-top: 8px;
+  margin-bottom: 44px;
+  font-size: var(--h1-size);
+}
+
+.description {
+  margin-top: -6px;
+  margin-bottom: 24px;
+  text-align: center;
+  font-style: italic;
+}
+
+#divisor1 {
+  width: 100%;
+  margin-top: 44px;
+  margin-bottom: 64px;
+  position: relative;
+  border-top: 1px solid var(--border-primary);
+  box-sizing: border-box;
+  height: 1px;
+}
+
+h2 {
+  margin-top: 2px;
+  margin-bottom: 4px;
+  font-size: var(--h2-size);
+}
 .headline {
   color: var(--text-headline);
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  font-size: var(--text-headline);
+}
+
+p {
+  margin-top: 8px;
+  color: var(--text-secondary);
+  font-size: var(--paragraph-size);
+}
+
+.paragraph {
+  margin-top: 8px;
+  margin-bottom: 64px;
+}
+
+.image-description {
+  margin-top: -7px;
+  margin-bottom: 24px;
+  height: 660px;
+  width: 100%;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 660px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.temploHaed {
+  width: 100%;
+  position: relative;
+  margin-top: -28px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 350px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+img {
+  width: 100%;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 350px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+#card {
+  font-weight: bold;
+  font-size: var(--paragraph-size);
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-top: 3px;
+  margin-left: 19px;
+}
+
+#li-blue {
+  color: var(--accent-blue);
+  font-weight: bold;
+}
+
+#li-purple {
+  color: var(--accent-purple);
+  font-weight: bold;
+}
+
+#li-pink {
+  color: var(--accent-pink);
+  font-weight: bold;
+}
+
+#li-orange {
+  color: var(--accent-orange);
+  font-weight: bold;
+}
+
+#divisor {
+  width: 100%;
+  margin-top: 44px;
+  margin-bottom: 64px;
+  position: relative;
+  border-top: 1px solid var(--border-primary);
+  box-sizing: border-box;
+  height: 1px;
+}
+
+#list-p {
+  margin-top: -20px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: var(--paragraph-size);
+  color: var(--text-secondary);
+}
+
+#creditos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: var(--background-rodape);
+}
+
+.feito-com {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-base);
+  color: var(--text-secondary);
+}
+
+.heart {
+  width: 16px;
+  height: 16px;
+  margin: 0 4px;
+}
+
+.fa-rocket {
+  margin-left: 8px;
+  color: var(--text-secondary);
 }
