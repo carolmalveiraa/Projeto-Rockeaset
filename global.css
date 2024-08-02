@@ -1,35 +1,25 @@
 body {
   margin: 0;
-  line-height: normal;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 :root {
-  /* fonts */
-  --font-alice: Alice;
-  --paragraph: "Open Sans";
-
+  /* Colors*/
+  --background-default: #f5f4f0;
+  --border-primary: #d9d9d9;
+  --text-primary: #1b1b1b;
+  --text-secondary: #333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+  --font-open-sans: "Open Sans";
   /* font sizes */
   --paragraph-size: 16px;
   --h3-size: 28px;
   --h2-size: 32px;
   --h1-size: 36px;
-
-  /* Colors */
-  --background-default: #f5f4f0;
-  --text-secondary: #333;
-  --border-primary: #d9d9d9;
-  --text-primary: #1b1b1b;
-  --color-darkslateblue: #0c51a7;
-  --text-headline: #e1624f;
-
-  /* Gaps */
-  --gap-9xs: 4px;
-  --gap-xl: 20px;
-  --gap-5xs: 8px;
-
-  /* Paddings */
-  --padding-18xl: 37px;
-
-  /* Border radiuses */
-  --br-9xl: 28px;
 }
